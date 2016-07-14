@@ -1,18 +1,17 @@
 //
-//  AppDelegate.h
+//  HybridMenuViewController.h
 //  testTask
 //
-//  Created by Admin on 12.07.16.
+//  Created by Admin on 13.07.16.
 //  Copyright © 2016 Admin. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 #import "SlideNavigationController.h"
 #import "LeftMenuViewController.h"
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@import GoogleMaps;
+@interface HybridMenuViewController : UIViewController <SlideNavigationControllerDelegate>
 
-@property (strong, nonatomic) UIWindow *window;
 
 
 @end
-
